@@ -10,6 +10,53 @@ body{
         font-style: normal;
         background: #F3F1FF;     
 }
+ /* Heading part Css */
+nav{
+    width: 100%;
+    height: 94px;
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between; 
+
+}
+.logo-info{
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    width: 40.42px;
+    height: 51px;
+    padding-right: 10px;
+}
+.logo-name{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.menu-info{
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.menu-bar{
+    color: white;
+    padding-right: 40px;
+}
+
+
+.profile-pic{
+    width: 51px;
+    height: 51px;
+    
+}
+
+ /* Main part Css */
 main{
     display: flex;
     flex-direction: column;
@@ -151,6 +198,38 @@ a{
 /* ..........Media query........... */
 /* Mobile device */
 @media only screen and (max-width:688px){
+
+    nav{
+        height: 60px;
+    }
+    .logo-info{
+        padding-left: 15px;
+    }
+    .logo{
+            width: 25px;
+            height: 32px;
+            padding-right: 5px;
+
+    }
+    .logo-name{
+        font-size: 18px;
+        font-weight: 500;
+    
+    }
+    .menu-info{
+        padding-right: 15px;
+    }
+    .menu-bar{
+        padding-right: 15px;
+        font-size: 12px;
+    }
+    .profile-pic{
+        width: 40px;
+        height: 40px;
+        
+    }
+    
+
     .container{
         width: 100%;
     }
@@ -169,6 +248,16 @@ a{
     /* Tablet devices */
 
     @media only screen and (min-width: 688px) and (max-width: 992px){
+        nav{
+            height: 84px;
+        }
+
+        .logo-info{
+            padding-left: 100px;
+        }
+        .menu-info{
+            padding-right: 100px;
+        }
         .container{
             width: 100%;
         }
